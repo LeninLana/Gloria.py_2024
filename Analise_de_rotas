@@ -1,0 +1,20 @@
+#rr=rota + rapida
+#re=rota + economica
+#mp=media + ponderada
+#r=n° de rotas
+#t=trechos
+#c=comprimento
+#vm=velocidade media
+#te=tempo
+
+r = int(input('Digite o número de rotas: '))
+n = 1
+l = list (range(n,r +1))
+
+for qr in l:
+    t = float(input("Digite a quantidade de trechos: "))
+    c = float(input("Digite o comprimento do trecho: "))
+    vm = float(input("Digite a velocidade média (km/h) do trecho: "))
+
+    
+

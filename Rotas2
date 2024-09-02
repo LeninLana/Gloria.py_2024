@@ -1,0 +1,24 @@
+#n = numero de rotas
+#rr = rota + rapida
+#t = trechos
+#d = distancia
+#vm = velocidade media
+#re = rota + econômica
+#mp = média ponderada
+#j,i = numero que for colocado
+
+n = int(input("Quantas rotas?  "))
+rr = 0
+
+for i in range(n):
+    print(f"Rota {i+1}:")
+    t = int(input("Quantos trechos nesta rota? "))
+
+    for j in range(t):
+        d = float(input(f"Distância do trecho {j+1} (km)? "))
+        vm = float(input(f"Velocidade média do trecho {j+1} (km/h)? "))
+
+print("A rota mais econômica é a rota " + str())
+
+
+print("A rota mais rápida é a rota " + str(rr))
